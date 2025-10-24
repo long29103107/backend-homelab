@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7589B7A4-6284-49EF-B89E-B354F702097E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.TestGithubRunner", "0.TestGithubRunner", "{0E7D3DED-E714-4D04-A4E6-F3C5B744515D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Api", "src\0.TestGithubRunner\Product.Api\Product.Api.csproj", "{0BD2CB14-FC09-4571-A956-5A9794847B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Category.Api", "src\0.TestGithubRunner\Category.Api\Category.Api.csproj", "{8499AA08-3A1B-4780-961F-1B85C9680DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E7D3DED-E714-4D04-A4E6-F3C5B744515D} = {7589B7A4-6284-49EF-B89E-B354F702097E}
+		{0BD2CB14-FC09-4571-A956-5A9794847B41} = {0E7D3DED-E714-4D04-A4E6-F3C5B744515D}
+		{8499AA08-3A1B-4780-961F-1B85C9680DB6} = {0E7D3DED-E714-4D04-A4E6-F3C5B744515D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD2CB14-FC09-4571-A956-5A9794847B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD2CB14-FC09-4571-A956-5A9794847B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD2CB14-FC09-4571-A956-5A9794847B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD2CB14-FC09-4571-A956-5A9794847B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8499AA08-3A1B-4780-961F-1B85C9680DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8499AA08-3A1B-4780-961F-1B85C9680DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8499AA08-3A1B-4780-961F-1B85C9680DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8499AA08-3A1B-4780-961F-1B85C9680DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
